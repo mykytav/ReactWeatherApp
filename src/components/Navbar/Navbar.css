@@ -1,0 +1,37 @@
+.navbar-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-list-item {
+  align-self: baseline;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.city-name {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+@media all and (max-width: 480px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .navbar-list-item {
+    flex-basis: 100%;
+  }
+
+  .navbar-list-item {
+    order: 2;
+  }
+
+  .city-name {
+    order: 1;
+  }
+}

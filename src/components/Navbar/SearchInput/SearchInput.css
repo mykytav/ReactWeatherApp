@@ -1,0 +1,36 @@
+.form-container {
+  padding: 8px;
+}
+
+form {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+input[type='text'] {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  caret-color: white;
+}
+
+.search-button {
+  padding: 8px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+::-moz-placeholder {
+  color: white;
+}
+:-ms-input-placeholder {
+  color: white;
+}
+::placeholder {
+  color: white;
+}

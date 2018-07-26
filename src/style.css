@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #110021;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.wi-blue {
+  color: #2ca1ec;
+}
+.wi-yellow {
+  color: #ffc600;
+}
+.wi-gray {
+  color: #999;
+}
